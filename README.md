@@ -9,6 +9,15 @@ Open the bash in the folder you want to save the agent.
 ```Bash
 git clone https://github.com/DataSciGina/simple-voice-assistant.git
 cd ./simple-voice-assistant
+```
+**Recommendation:** Create virtual environment.
+
+```bash
+python -m venv venv
+venv/Scripts/activate
+```
+
+```
 pip install
 streamlit run ./ai_voice_agent.py
 ```
